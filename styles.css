@@ -13,7 +13,8 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding: 20px 8% 100px;
+    padding: 20px 8% 90px;
+    flex-wrap: wrap;
 
 
 }
@@ -23,13 +24,14 @@ body {
 .header-section-one { 
     display: flex;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
 }
 
 .header-nav-bar ul {
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 
 .header-logo {
@@ -42,10 +44,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    flex-wrap: wrap;
+
 }
 
 .hero-section { 
     flex: 1;
+    flex-shrink: 0;
 }
 
 .main-hero { 
@@ -60,7 +65,8 @@ body {
     font-size: 18px;
     color: lightgray;
     flex: 1;
-    margin-top: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .hero-image {
@@ -68,10 +74,11 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+
 }
 
 .hero-image img {
-    width: 400px;
+   height: 400px
 }
 
 .header-logo { 
@@ -87,6 +94,14 @@ body {
     background-color: #3882F6;
     color: #F9FAF8;
     border: 0;
-    padding: 10px 30px 10px;
+    padding: 15px 40px 15px;
     border-radius: 8px;
+    margin-top: 0px;
+}
+
+/* About Us Section */
+
+.about-us {
+    text-align: center;
+    font-weight: bold;
 }
