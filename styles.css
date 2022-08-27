@@ -101,7 +101,35 @@ body {
 
 /* About Us Section */
 
-.about-us {
-    text-align: center;
+.information {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+}
+
+.info-title {
+    margin: 35px;
+    flex: 1;
+    font-size: 36px;
     font-weight: bold;
+}
+
+.info-images-captions {
+    display: flex;
+    gap: 45px;
+}
+
+.info-boxes {
+    width: 225px;
+    height: 225px;
+    border-radius: 8px;
+}
+
+.info-boxes img {
+    max-width:225px;
+    height: 225px;
+    padding: 0px;
+    border-radius: 8px;
+    border: #3882F6 solid 4px;
 }
